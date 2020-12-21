@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html/#order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html/#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Order Form -->
+    <div class="container-fluid padding">
+        <div class="col-12">
+            <div class="row welcome ">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Order Delivery</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">
+                        Order through our safe and secure delivery system. We make sure all our staff follow strict social-distancing protocols to ensure everyone's safety.
+                    </p>
+                </div>
+            </div>
+            <form class="welcome" action="/thankyou.html">
+                <div class="form-group col-12 padding">
+                    <label for="exampleInputEmail1">Contact Information</label>
+                    <input type="text" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                    <input type="text" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+                    <input type="text" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                    <input type="text" class="form-control my-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group col-12 padding">
+                    <label for="exampleFormControlSelect1">Select Beverage</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>12oz Latte $4.50</option>
+                      <option>16oz Latte $5.75</option>
+                      <option>12oz Cappuccino $4.75</option>
+                      <option>12oz Flat White $5.00</option>
+                      <option>16oz Mocha $5.75</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 padding">
+                    <label for="exampleFormControlSelect1">Syrups</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Maple +$0.50
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Fish Pepper +$0.50
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Lavender +$0.50
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-12 padding">
+                    <label for="exampleFormControlSelect1">Milks</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Whole Milk
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Half And Half
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Soy Milk +$0.25
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-12 padding">
+                    <label for="exampleFormControlSelect1">Payment & Delivery Options</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          30 minute delivery, Venmo payment upon receipt
+                        </label>
+                      </div>
+                </div>
+                <div class="form-group col-12 padding">
+                    <button type="submit" class="btn btn-primary">Place Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">
+                    We are taking COVID-19 precautions very seriously to keep our employees and customers safe.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#">
+                    <button type="button" class="btn btn-outline-secondary btn-lg">
+                        Learn More
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Connect -->
+    <div class="contianer-fluid padding" id="connect">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer     -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png">
+                    <hr class="light">
+                    <p>4243-22-2342</p>
+                    <p>email@email.com</p>
+                    <p>987 Street Name</p>
+                    <p>City, State, 00000</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday - Wednesday: 10AM-6PM</p>
+                    <p>Thursday - Saturday: 12PM-6PM</p>
+                    <p>Sunday: CLOSED</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>City, State, 00000</p>
+                    <p>City, State, 00000</p>
+                    <p>City, State, 00000</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; Coffee Crate</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

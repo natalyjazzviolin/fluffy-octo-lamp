@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay-div"></div>
+                <img src="img/carousel1.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">
+                        Coffee,<br> delivered.
+                    </h1>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="/order.html">ORDER NOW</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-div"></div>
+                <img src="img/carousel2.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">
+                        Coffee - <br>on your terms.
+                    </h1>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="#order">LEARN MORE</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-div"></div>
+                <img src="img/carousel3.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">
+                        Our covid-19 precautions
+                    </h1>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="covid.html">LEARN MORE</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">
+                    We are taking COVID-19 precautions very seriously to keep our employees and customers safe.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#">
+                    <button type="button" class="btn btn-outline-secondary btn-lg">
+                        <a href="/covid.html">Learn More</a>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="container-fluid padding" id="order">
+        <div class="row welcome ">
+            <div class="col-12 text-center">
+                <h1 class="display-4">A cup for every taste.</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                    Ordering coffee has never been easier! Whether you need it on a whim or want to subscribe for a daily delivery - we’ve got you covered! No more driving to your local coffee shop, enjoy from the comfort of your couch!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container-fluid padding" >
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-coffee"></i>
+                <h3>One Time Delivery</h3>
+                <p>One and done</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-calendar"></i>
+                <h3>Pick Your Schedule</h3>
+                <p>Have a coffee itch, but not sure when it'll hit? </p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fa fa-check-square"></i>
+                <h3>Commit To It</h3>
+                <p>Have a coffee itch, but not sure when it'll hit? Pick your custom delivery times and dates.</p>
+            </div>
+            <div class="col-12 text-center services">
+                <button type="button" class="btn btn-primary btn-lg "><a href="/order.html">ORDER NOW</a></button>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Two Column Section
+    <div class="container-fluid padding welcome">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Enjoy it hot or cold...</h2>
+                <p>Reat assured that your beverage will arrive at the temperature you order it! Our deliveries are stored in temperature-controlled bags from the moment the barista hands them off, to the moment they arrive at your doorstep!</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/cozy.jpg" class="img-fluid img-max">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Meet The Team -->
+    <div class="container-fluid padding" id="team">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet The Team</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- Employee Cards -->
+    <div class="contianer-fluid padding employee">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Jane Daws</h4>
+                        <p class="card-text">CEO and world class entrepreneur.</p>
+                        <a href="#" class="btn btn-outline-secondary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Em Smith</h4>
+                        <p class="card-text">CEO and world class entrepreneur.</p>
+                        <a href="#" class="btn btn-outline-secondary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Anne Briggs</h4>
+                        <p class="card-text">CEO and world class entrepreneur.</p>
+                        <a href="#" class="btn btn-outline-secondary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+
+    <!-- Connect -->
+    <div class="contianer-fluid padding" id="connect">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer     -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png">
+                    <hr class="light">
+                    <p>4243-22-2342</p>
+                    <p>email@email.com</p>
+                    <p>987 Street Name</p>
+                    <p>City, State, 00000</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday - Wednesday: 10AM-6PM</p>
+                    <p>Thursday - Saturday: 12PM-6PM</p>
+                    <p>Sunday: CLOSED</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>Baltimore, MD:</p>
+                    <p>Mt. Vernon</p>
+                    <p>Charles Village</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; Coffee Crate</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
